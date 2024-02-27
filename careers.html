@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>ESTRO</title>
+    <link href="style.css" rel="stylesheet">
+  <!-- ------------------------------------remixICON-------------------------------------------------- -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #DCF2F1;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #86A7FC;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .job-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #365486;
+        }
+
+        .apply-btn {
+            background-color: #38419D;
+            color: white;
+            font-weight: 600;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        #apply-now {
+            display: none;
+        }
+
+        #application-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .value {
+            height: 175px;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+
+        input,
+        button {
+            margin-bottom: 10px;
+        }
+
+        .button:hover {
+            color: black;
+            background-color: #fcfcfc;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        ul li a:hover {
+            color: #ffffff;
+        }
+
+        @media screen and (max-width:501px) {
+            .value {
+                height: 88px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+
+            h2 {
+                font-size: 22px;
+                margin-bottom: 2px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- ---------------------NAVBAR START---------------------------------------->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/index/index.html"><img class="logo1"
+                            src="/Images/TEAMIMAGES/ESTRO-lOGO.png ">
+                        </h5></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    ABOUT
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/about/corporate.html">Corporate Profile</a>
+                                    <a class="dropdown-item" href="/about/mission.html">Mission</a>
+                                    <a class="dropdown-item" href="/about/vision.html">Vision</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/carreres/careers.html">Careers</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/products/products.html">Products</a>
+                            </li>
+
+                        </ul>
+                        <form style="margin: 20px;" class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button style="font-weight: 400;" class="btn btn-outline-success" type="submit"><span
+                                    class="material-symbols-outlined">
+                                    search
+                                </span></button>
+                        </form>
+                        <span style="padding: 0 10px; font-weight: 600;"><a class="spa nav-link"
+                                href="/LOGINandSignUp/signin.html"><i class="ri-user-fill"></i>SignIn</a></span></a><a
+                            style="padding: 0 10px; font-weight: 600;" class="spa nav-link"
+                            href="/LOGINandSignUp/signup.html">Register</a></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!----------------------------NAVBAR  END-------------------------------------------->
+    </header>
+
+    <body>
+
+        <div style="background-color: #bdd3f7;">
+            <h1 style="color: #ffffff;text-align: center;">New Careers</h1>
+            <div style="color: #ffffff;text-align: center;">
+                <ul class="lst">
+                    
+                    <li><a href="#apply-now" onclick="showApplicationForm('General Application')">Quick Apply!</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <section id="job-openings">
+            <h2>Current Job Openings</h2>
+
+            <div class="job-card">
+                <h2>H.C.E (Health Care Executive)</h2>
+                <p>
+
+
+                <p>
+                <h6 style="text-align: left;">Job Summary:</h6>
+                </p>
+
+                <p style="text-align: left;">We are seeking a highly skilled and experienced Health Care Executive to
+                    lead and manage our healthcare organization. The ideal candidate will have a deep understanding of
+                    the healthcare industry, strong leadership abilities, and a proven track record of successfully
+                    overseeing complex healthcare operations. The Health Care Executive will be responsible for
+                    strategic planning, financial management, and ensuring the delivery of high-quality patient care</p>
+
+                <p>
+                <h5 style="text-align: left;">Responsibilities:</h5>
+                </p>
+
+                <p>
+                <h6 style="text-align: left;">1. Strategic Leadership:</h6>
+                </p>
+
+                <p style="text-align: left;">- Develop and implement strategic plans to achieve organizational goals and
+                    objectives.</p>
+                <p style="text-align: left;"> - Provide visionary leadership to drive innovation and growth in the
+                    rapidly evolving healthcare landscape.</p>
+
+
+                <p>
+                <h6 style="text-align: left;">2.Financial Management:</h6>
+                </p>
+                <p style="text-align: left;">- Oversee budgeting, financial planning, and fiscal management to ensure
+                    the organization's financial health.</p>
+                <p style="text-align: left;">- Implement cost-effective measures while maintaining high standards of
+                    patient care.</p>
+
+                <p>
+                <h6 style="text-align: left;">3. Operational Oversight:</h6>
+                </p>
+                <p style="text-align: left;">- Direct and coordinate day-to-day operations to ensure efficient and
+                    effective healthcare delivery.</p>
+                <p style="text-align: left;">- Collaborate with department heads to optimize workflow and enhance
+                    overall operational performance.</p>
+
+                <p>
+                <h6 style="text-align: left;">4.Quality Assurance:</h6>
+                </p>
+                <p style="text-align: left;">- Establish and maintain quality assurance standards to ensure the delivery
+                    of high-quality and patient-centered care.</p>
+                <p style="text-align: left;">- Implement and monitor compliance with healthcare regulations and
+                    accreditation standards.</p>
+
+                <p>
+                <h6 style="text-align: left;"> 5.Stakeholder Collaboration:</h6>
+                </p>
+                <p style="text-align: left;">- Foster positive relationships with internal and external stakeholders,
+                    including healthcare professionals, staff, regulatory agencies, and community partners.</p>
+                <p style="text-align: left;"> - Collaborate with medical staff to enhance clinical integration and
+                    interdisciplinary teamwork.</p>
+                <p>
+                <h6 style="text-align: left;">6.Innovation and Technology:</h6>
+                </p>
+                <p style="text-align: left;">- Stay abreast of industry trends, advancements, and emerging technologies
+                    to drive innovation in healthcare services.</p>
+                <p style="text-align: left;">- Implement and leverage technology solutions to improve patient outcomes
+                    and operational efficiency.</p>
+
+                <p>
+                <h6 style="text-align: left;">7.Community Engagement:</h6>
+                </p>
+                <p style="text-align: left;">- Act as a representative of the organization in the community,
+                    participating in public relations and community engagement activities.</p>
+                <p style="text-align: left;"> - Advocate for the organization's mission and contribute to building a
+                    positive public image.</p>
+
+                <p>
+                <h6 style="text-align: left;">Qualifications:</h6>
+                </p>
+
+                <p style="text-align: left;">- Master's degree in Healthcare Administration, Business Administration, or
+                    a related field.</p>
+                <p style="text-align: left;">- Minimum of 8-10 years of progressive leadership experience in healthcare
+                    management.</p>
+                <p style="text-align: left;">- Strong understanding of healthcare policies, regulations, and industry
+                    trends.</p>
+                <p style="text-align: left;">- Excellent communication, interpersonal, and negotiation skills.</p>
+                <p style="text-align: left;">- Proven ability to lead and inspire teams toward achieving organizational
+                    goals.</p>
+                <p style="text-align: left;"> - Strategic thinking and problem-solving abilities.</p>
+
+                <p>
+                <h6 style="text-align: left;">Preferred Skills:</h6>
+                </p>
+
+                <p style="text-align: left;">- Healthcare accreditation and regulatory compliance expertise.</p>
+                <p style="text-align: left;">- Experience in managing healthcare facility expansion or renovation
+                    projects.</p>
+                <p style="text-align: left;">- Familiarity with healthcare information systems and technology.</p>
+
+                <p style="text-align: left;">If you are a dynamic and visionary healthcare leader with a passion for
+                    delivering exceptional patient care, we invite you to apply for the position of Health Care
+                    Executive. Join us in shaping the future of healthcare and making a positive impact on the
+                    well-being of our community.</p>
+                <!-- ... (rest of the content) -->
+                <button class="button apply-btn" onclick="showApplicationForm('Health Care Executive')">Apply
+                    Now</button>
+            </div>
+
+            <div class="job-card">
+                <h2>T.H.C.E (Trainee Health Care Executive)</h2>
+                <p>
+
+
+                <p>
+                <h6 style="text-align: left;">Job Summary:</h6>
+                </p>
+
+                <p style="text-align: left;">We are seeking a highly skilled and experienced Health Care Executive to
+                    lead and manage our healthcare organization. The ideal candidate will have a deep understanding of
+                    the healthcare industry, strong leadership abilities, and a proven track record of successfully
+                    overseeing complex healthcare operations. The Health Care Executive will be responsible for
+                    strategic planning, financial management, and ensuring the delivery of high-quality patient care.
+                </p>
+
+                <p>
+                <h5 style="text-align: left;">Responsibilities:</h5>
+                </p>
+
+                <p>
+                <h6 style="text-align: left;">1. Strategic Leadership:</h6>
+                </p>
+
+                <p style="text-align: left;">- Develop and implement strategic plans to achieve organizational goals and
+                    objectives.</p>
+                <p style="text-align: left;"> - Provide visionary leadership to drive innovation and growth in the
+                    rapidly evolving healthcare landscape.</p>
+
+
+                <p>
+                <h6 style="text-align: left;">2.Financial Management:</h6>
+                </p>
+                <p style="text-align: left;">- Oversee budgeting, financial planning, and fiscal management to ensure
+                    the organization's financial health.</p>
+                <p style="text-align: left;">- Implement cost-effective measures while maintaining high standards of
+                    patient care.</p>
+
+                <p>
+                <h6 style="text-align: left;">3. Operational Oversight:</h6>
+                </p>
+                <p style="text-align: left;">- Direct and coordinate day-to-day operations to ensure efficient and
+                    effective healthcare delivery.</p>
+                <p style="text-align: left;">- Collaborate with department heads to optimize workflow and enhance
+                    overall operational performance.</p>
+
+                <p>
+                <h6 style="text-align: left;">4.Quality Assurance:</h6>
+                </p>
+                <p style="text-align: left;">- Establish and maintain quality assurance standards to ensure the delivery
+                    of high-quality and patient-centered care.</p>
+                <p style="text-align: left;">- Implement and monitor compliance with healthcare regulations and
+                    accreditation standards.</p>
+
+                <p>
+                <h6 style="text-align: left;"> 5.Stakeholder Collaboration:</h6>
+                </p>
+                <p style="text-align: left;">- Foster positive relationships with internal and external stakeholders,
+                    including healthcare professionals, staff, regulatory agencies, and community partners.</p>
+                <p style="text-align: left;"> - Collaborate with medical staff to enhance clinical integration and
+                    interdisciplinary teamwork.</p>
+                <p>
+                <h6 style="text-align: left;">6.Innovation and Technology:</h6>
+                </p>
+                <p style="text-align: left;">- Stay abreast of industry trends, advancements, and emerging technologies
+                    to drive innovation in healthcare services.</p>
+                <p style="text-align: left;">- Implement and leverage technology solutions to improve patient outcomes
+                    and operational efficiency.</p>
+
+                <p>
+                <h6 style="text-align: left;">7.Community Engagement:</h6>
+                </p>
+                <p style="text-align: left;">- Act as a representative of the organization in the community,
+                    participating in public relations and community engagement activities.</p>
+                <p style="text-align: left;"> - Advocate for the organization's mission and contribute to building a
+                    positive public image.</p>
+
+                <p>
+                <h6 style="text-align: left;">Qualifications:</h6>
+                </p>
+
+                <p style="text-align: left;">- Master's degree in Healthcare Administration, Business Administration, or
+                    a related field.</p>
+                <p style="text-align: left;">- Minimum of 8-10 years of progressive leadership experience in healthcare
+                    management.</p>
+                <p style="text-align: left;">- Strong understanding of healthcare policies, regulations, and industry
+                    trends.</p>
+                <p style="text-align: left;">- Excellent communication, interpersonal, and negotiation skills.</p>
+                <p style="text-align: left;">- Proven ability to lead and inspire teams toward achieving organizational
+                    goals.</p>
+                <p style="text-align: left;"> - Strategic thinking and problem-solving abilities.</p>
+
+                <p>
+                <h6 style="text-align: left;">Preferred Skills:</h6>
+                </p>
+
+                <p style="text-align: left;">- Healthcare accreditation and regulatory compliance expertise.</p>
+                <p style="text-align: left;">- Experience in managing healthcare facility expansion or renovation
+                    projects.</p>
+                <p style="text-align: left;">- Familiarity with healthcare information systems and technology.</p>
+
+                <p style="text-align: left;">If you are a dynamic and visionary healthcare leader with a passion for
+                    delivering exceptional patient care, we invite you to apply for the position of Health Care
+                    Executive. Join us in shaping the future of healthcare and making a positive impact on the
+                    well-being of our community.</p>
+                <!-- ... (rest of the content) -->
+                <button class="button apply-btn" onclick="showApplicationForm('Health Care Executive')">Apply
+                    Now</button>
+            </div>
+
+            <!-- Add more job cards as needed -->
+
+        </section>
+
+        <div id="apply-now" style="display: none;">
+            <h2 id="job-title"></h2>
+            <form id="application-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit" class="apply-btn">Submit Application</button>
+            </form>
+        </div>
+
+
+        <!-- -----------------------------------------------FOOTER -->
+
+        <footer style="color:#132043;padding: 20px;background-color:#89CFF3;" class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>INFO</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Services</a></li>
+                        <li class="nav-item mb-2"><a href="careers.html"
+                                class="nav-link p-0 text-body-secondary">Careers</a></li>
+                        <li class="nav-item mb-2"><a href="contact.html"
+                                class="nav-link p-0 text-body-secondary">Enquiry</a></li>
+                        <li class="nav-item mb-2"><a href="products.html"
+                                class="nav-link p-0 text-body-secondary">Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>POLICIES</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Term Of
+                                Services</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">E-waste recycling
+                                Policy</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy
+                                Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Resource Centre</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Estro</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">resQ</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Site
+                                <Map></Map></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cororate
+                                Enquiries</a></li>
+                        <li class="nav-item mb-2"><a href="contact.html"
+                                class="nav-link p-0 text-body-secondary">Contacts us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2023 Estro Pharmaceuticals, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                            </svg></a></li>
+                </ul>
+
+            </div>
+            <p style="text-align:center;font-size: 10px;margin: 50px 0;color: grey;">
+            <p style="text-align: center;color: grey;font-size: 10px;"><b>Disclaimer: Estro Pharmaceuticals</b></p>
+            <p style="text-align: center;color: grey;font-size: 10px;">
+                Information provided is not medical advice. Use products as directed. Estro Pharmaceuticals is not
+                responsible for
+                external links. Consult a healthcare professional for personalized guidance.
+            </p>
+
+
+
+
+            <script>
+                function showApplicationForm(jobTitle) {
+                    document.getElementById('job-title').innerText = jobTitle;
+                    document.getElementById('apply-now').style.display = 'block';
+                    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+                }
+
+                document.addEventListener('DOMContentLoaded', function () {
+                    document.getElementById('application-form').addEventListener('submit', function (event) {
+                        event.preventDefault();
+                        // Add form submission logic here (e.g., AJAX request to handle the application)
+                        alert('Application submitted successfully!');
+                        document.getElementById('apply-now').style.display = 'none'; // Hide the form after submission
+                    });
+                });
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+    </body>
+
+</html>

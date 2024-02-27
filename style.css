@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+:root{
+  --bg-primary:#86A7FC;
+  --color-primary:#86A7FC; 
+  --color-prim:#38419D;
+  --bs-secondary-color:#132043;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  background-color: #CDF5FD;
+}
+a,a:hover,a:focus{
+  text-decoration: none;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+li{
+  list-style: none;
+}
+img{
+  max-width: 100%;
+}
+h1,h1,h3,h4,h5,h6{
+  font-weight: 700;
+}
+h2{
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+h3{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+section,.container
+{
+  position:relative ;
+}
+.lead{
+  font-weight: 500;
+}
+header {
+  background: var(--bg-primary);
+}
+header .navbar-expand-lg .navbar-nav .nav-link{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 10px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  color: #fff;
+}
+.navbar-toggler {
+  color:white;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+header .navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #38419D;
+}
+.btn-outline-success {
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #38419D;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #38419D;
+  --bs-btn-hover-border-color: #38419D;
+  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #38419D;
+  --bs-btn-active-border-color: #38419D;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+  --bs-btn-disabled-color: #38419D;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #38419D;
+  --bs-gradient: none;
+}
+.hero-banner{
+  background:url(./Images/AdobeStock_586861596_Preview-transformed.jpeg);
+  min-height: 300px;
+  padding: 100px 0px;
+  background-size: cover;
+  position: relative;
+} 
+
+
+.hero-banner:before {
+ 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(4, 18, 213);
+  /* 333A73 */
+  right: 0;
+}
+.banner-text-wrap h1{
+  font-size: 60px;
+  font-weight: 700;
+  
+
+}
+.MANAGE{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.banner-text-wrap h1{
+font-size: 60PX;
+font-weight: 700;
+}
+.banner-text-wrap{
+font-size: 60px;
+font-weight: 700;
+}
+.btn{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 8px 24px;
+  font-size: 24px;
+  height: 36px  ;
+align-items: center;  
+line-height: 1px;
+ 
+}
+
+.btn-white {
+  background: #fff;
+  color: var(--color-prim);
+  line-height: 0;
+  font-size: 20px;
+  text-align: center; 
+  padding: 20px 24px;border-radius: 0px;
+}
+input.form-control.me-2 {
+  height: 40%;
+  margin: 0 20px;
+}
+.banner-text-wrap{
+  max-width: 600px;
+}
+.banner-text-wrap p{
+  margin-bottom: 23px;
+  margin-top: 15px;
+}
+
+/* body {
+  background: url('./Images/Marvels_Blade_Announcement_Art_3840x2160-scaled.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+section.features-section {
+    margin-top: -90px;
+}
+.bg1{
+  
+    background-color: #26459be8;
+    text-align: center;
+}
+.bg2{
+  background-color: var(--bg-primary);
+  text-align: center;
+}
+.bg3{
+  background-color: #a8b5d2e8;
+  text-align: center;
+}
+.features-box h3, .features-box p{
+  color: #fff;
+}
+.features-box{
+  padding: 40px;
+  height: 250px;
+}
+.log2{
+  height: 80px;
+}
+.logo1{
+  height: 60px;
+
+  padding: auto;
+}
+tr{
+  padding: 0 15px;
+}
+.table{
+  text-align:left;
+  font-size: 500;
+  
+}
+.table>:not(caption)>*>* {
+  padding: 0 2rem;
+  text-align: center;
+}
+.blue{
+  text-decoration: none;
+}
+
+
+
+
+/* --------------------------------------------------------pRoductsPAGE */
+body1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  background-color: #f4f4f4;
+  background: transparent;
+}
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(114, 114, 114, 0.80);
+  z-index: 1000;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup-close {
+  cursor: pointer;
+  color: #333;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popup-button {
+  padding: 0px 10px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* --------------------------------BOUT SECTION */
+
+
+section.about-section{
+  padding: 80px 0px;
+}
+.about-media{
+  border: 10px solid var(--bg-primary);
+}
+.g-5, .gx-5 {
+   --bs-gutter-x: 0px; 
+}
+.row {
+   --bs-gutter-x: 0px; 
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  padding: 10px;
+}
+/* Target the popup-container when the URL has #popup */
+#popupContainer:target {
+  display:inline-block  ;
+}
+
+.spa{
+  color: #fff;
+}
+.spa:hover{
+  color:var(--bs-btn-active-bg);
+}
+[class^="ri-"] {
+  padding: 5px;
+  
+}
+.container-fluid {--bs-gutter-x: 0px;}
+#popupContainer:target {
+  width: 940px;
+  height: 720px;
+  opacity: 90%;
+}
+
+.g-5, .gx-5 {
+   --bs-gutter-x: 0px; 
+}
+.row {
+  --bs-gutter-x: 0px; 
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.text-body-secondary {
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color)!important;
+}
+/* ------------------------------------------icon */
+
+img, svg {
+  color:#132043
+  transition-property height;
+}
+img, svg:hover{
+  color: rgb(155, 240, 255);
+  height: 40px;
+}
+.about-img{
+  
+  width: 700px;
+  height: 380px;
+}
+section.about-section {
+  padding: 25px 0px;
+}
+@media screen and (max-width:421px)
+{
+ 
+  .about-img
+  {
+    height:250px;
+  }
+  .hero-banner{
+    background:url(./Images/pexels-pavel-danilyuk-8205368.jpg);
+    min-height: 50px;
+    padding: 50px 0px;
+    background-size: cover;
+    position: relative;
+  }
+  
+.banner-text-wrap h1 {
+  font-size: 33PX;
+  font-weight: 700;
+}
+h3 {
+  font-size: 13px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+.MANAGE {
+  font-size: 14px;
+  font-weight: 500;
+  PADDING-RIGHT: 18PX;
+  margin-bottom: -2px;
+  margin-top: 20px;
+}
+.btn-white {
+  MARGIN-BOTTOM: 31PX;
+} 
+/* --------------------------------------products- */
+.table>:not(caption)>*>* {
+  padding: 1rem 0rem;
+  text-align: center;
+}
+.prod-class{
+  font-size: 8px;
+  font-weight: 900;
+}
+#prodsdtls{
+  font-size: 8px;
+  font-size: 1rem;
+}
+.popup-button {
+  padding: 2px 10px;
+  font-size: 7px;
+ 
+}
+.p_logo{
+margin: 0 15%;
+}
+#tim{
+  font-size: 16px;
+  padding: 0px;
+  margin: 0 32%;
+}
+
+}
+/* -----------------------------------------------COVID */
+.res{
+  text-align: center;
+  color: rgb(61, 47, 47);
+  font-family: Oswald, sans-serif;
+  padding: 50px 0;
+  text-align: left;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);  
+}
+.two {
+  width: 50%;
+  height: 469px;
+  background-color: rgb(209, 209, 209);
+  color: rgb(0, 0, 0);
+  background: rgb(231, 227, 227);
+  padding-top: 100px;
+  padding-left: 100px;
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+  top: 92px;
+  opacity: 60%;
+}
+.botCar {
+  margin: 12px 87px;
+    padding: 12px 184px;
+    border: #38419D;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    background-image: url(/Images/TEAMIMAGES/tai-s-captures-Lhb-zwQ-QGI-unsplash.jpg);
+  
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 254% 184%;
+}
+.heroImg{
+  height:469px ;
+  z-index:-1;
+}
+
+
+@media screen and (max-width:1066px)
+{
+  .heroImg{
+    height:412px;
+    z-index:-1;
+  }
+  .two {
+    width: 31%;
+    height: 251px;
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+    background: rgb(231, 227, 227);
+    padding-top: 0px;
+    padding-left: 15px;
+    z-index: 1;
+    display: inline-block;
+    position: absolute;
+    top: 91px;
+    opacity: 60%;
+}
+.res{
+  padding: 25px 0;
+}
+
+#tag{
+  text-align: left;
+  font-size: 30px;
+}
+
+
+
+}
+  @media screen and (max-width:1066px)
+  {
+    .heroImg{
+      height:250px;
+      z-index:-1;
+    }
+    #tag
+    {
+      font-size: 13px;
+    }
+    .about-img{
+      font-size: 13px;
+    }
+  }
+  
