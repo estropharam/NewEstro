@@ -503,3 +503,15 @@ p {
   margin-top: 0;
   margin-bottom: 0rem;
 }
+.mine {
+  background-color: #3498db;
+    color: white;
+    font-weight: 400;
+    padding: -5px 24px;
+    font-size: 12px;
+    height: 26px;
+    align-items: center;
+    line-height: 1px;
+    margin: 2px 0;
+    border-radius: 11px;
+  }
