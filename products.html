@@ -12,6 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
 </head>
 
 <body class="prod-class " style="display:flex, azure;">
@@ -20,7 +21,8 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="logo1" src="./Images/TEAMIMAGES/ESTRO-lOGO.png">
+          <a class="navbar-brand" href="./index.html"><img class="logo1"
+              src="./Images/TeamImages/ESTRO-lOGO.png">
             </h5></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -31,19 +33,19 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                <a class="nav-link dropdown-toggle" href="./index.html" id="navbarDropdown" role="button"
                   data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   ABOUT
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="corporate.html">Corporate Profile</a>
-                  <a class="dropdown-item" href="mission.html">Mission</a>
-                  <a class="dropdown-item" href="vision.html">Vision</a>
+                  <a class="dropdown-item" href="./corporate.html">Corporate Profile</a>
+                  <a class="dropdown-item" href="./mission.html">Mission</a>
+                  <a class="dropdown-item" href="./vision.html">Vision</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="careers.html">Careers</a>
+                <a class="nav-link" href="./careers.html">Careers</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -52,14 +54,14 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/covid.html">Covid-19</a>
-                  <a class="dropdown-item" href="/about/mission.html">Mission</a>
-                  <a class="dropdown-item" href="/about/vision.html">Vision</a>
+                  <a class="dropdown-item" href="./covid.html">Covid-19</a>
+                  <a class="dropdown-item" href="./mission.html">Mission</a>
+                  <a class="dropdown-item" href="./vision.html">Vision</a>
                 </div>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="products.html">Products</a>
+                <a class="nav-link" href="./products.html">Products</a>
               </li>
 
             </ul>
@@ -70,17 +72,17 @@
                   search
                 </span></button>
             </form>
-            <span style="padding: 0 10px; font-weight: 600;"><a class="spa nav-link" href="signin.html"><i
+            <span style="padding: 0 10px; font-weight: 600;"><a class="spa nav-link" href="./signin.html"><i
                   class="ri-user-fill"></i>SignIn</a></span></a><a style="padding: 0 10px; font-weight: 600;"
-              class="spa nav-link" href="signup.html">Register</a></span>
+              class="spa nav-link" href="./signup.html">Register</a></span>
           </div>
         </div>
       </nav>
     </div>
     <!----------------------------NAVBAR  END-------------------------------------------->
   </header>
-  <h6 style="text-align: center;font-size: 2rem;text-align: center; margin: 20px;display: inline-block;margin: 0 30%;">
-    <u id="tim">Products Details</u></h6>
+
+
   <table class="table table-bordered border-black">
     <thead>
       <tr>
@@ -96,162 +98,641 @@
         <th scope="row"> 01.</th>
         <td>BOMYCES-250</td>
         <td>Lyophilized Saccharomyces Boulardii 282.5mg</td>
-        <td class="blue"><a href="#">
-            <body1>
-
-              <!-- Link to the #popupContainer ID to trigger the :target pseudo-class -->
-              <a href="#popupContainer" class="popup-button">Check</a>
-
-              <!-- The popup-container with the ID #popupContainer -->
-              <div class="popup-container" id="popupContainer">
-                <div class="popup-content">
-                  <a href="#" class="popup-close">&times;</a>
-                  <h2>Popup Content</h2>
-                  <p><img src="Images/61FsxE-oMCS-removebg-preview.png" alt="image"></p>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Bomyces-250</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Bomyces-250.JPG" alt="Bomyces-250" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
+            </div>
+          </div>
+        </td>
 
-            </body1>
-          </a></td>
+        </a></td>
       </tr>
       <tr>
         <th scope="row">02.</th>
         <td>DIVORATE-ER 250</td>
         <td>Divalproex 250 mg</td>
-        <td class="blue"><a href="#">
-            <body1>
-
-              <!-- Link to the #popupContainer ID to trigger the :target pseudo-class -->
-              <a href="#popupContainer" class="popup-button">Check</a>
-              <div class="popup-container" id="popupContainer">
-                <div class="popup-content">
-                  <a href="#" class="popup-close">&times;</a>
-                  <h2>Popup Content</h2>
-                  <p><img src="Images/medicine/Bomyces-250.JPG" alt="image"></p>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">DIVORATE-ER 250</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Divorate-ER.JPG" alt="DIVORATE-ER 250" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
+            </div>
+          </div>
+        </td>
 
-            </body1>
-          </a></td>
+        </a></td>
       </tr>
+
+
       <tr>
         <th scope="row">03.</th>
         <td>DIVORATE-ER 500</td>
         <td>Divalproex 500 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">DIVORATE-ER 500</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Divorate-ER.JPG" alt="DIVORATE-ER 500" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">04.</th>
         <td>DIVORATE-ER 750</td>
         <td>Divalproex 750 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">DIVORATE-ER 750</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Divorate-ER.JPG" alt="DIVORATE-ER 750" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
-      <tr>
-        <th scope="row">05.</th>
-        <td>DIVORATE-ER 1000</td>
-        <td>Divalproex 1000 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+      <th scope="row">05.</th>
+      <td>DIVORATE-ER 1000</td>
+      <td>Divalproex 1000 mg</td>
+      <td>
+        <!-- Product POP UP And Close Button -->
+        <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+          CLICK
+        </button>
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">DIVORATE-ER 1000</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="./Images/medicine/Divorate-ER.JPG" alt="Bomyces-250" style="height:600px">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+
       </tr>
-      <tr>
-        <th scope="row">06.</th>
-        <td>ESPANTO-40</td>
-        <td>Pantoprazole 40 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+      <th scope="row">06.</th>
+      <td>ESPANTO-40</td>
+      <td>Pantoprazole 40 mg</td>
+      <td>
+        <!-- Product POP UP And Close Button -->
+        <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+          CLICK
+        </button>
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">ESPANTO-40</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="./Images/medicine/Espanto-40.JPG" alt="ESPANTO-40" style="height:600px">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+
       </tr>
-      <tr>
-        <th scope="row">07.</th>
-        <td>ESTROCIUM - D3 Plus</td>
-        <td>Calcitrol 0.25mg + Calcium Carbonate 500mg +Zinc Sulphate
-          Monohydate 7.5mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+      <th scope="row">07.</th>
+      <td>ESTROCIUM - D3 Plus</td>
+      <td>Calcitrol 0.25mg + Calcium Carbonate 500mg +Zinc Sulphate
+        Monohydate 7.5mg</td>
+      <td>
+        <!-- Product POP UP And Close Button -->
+        <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+          CLICK
+        </button>
+        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">ESTROCIUM - D3 Plus</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="./Images/medicine/Estrocium-D3_Plus.JPG" alt="ESTROCIUM - D3 Plus" style="height:600px">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+
       </tr>
       <tr>
         <th scope="row">08.</th>
         <td>ESTROPAM-5</td>
         <td>Escitalopram 5 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ESTROPAM-5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Estropam.JPG" alt="ESTROPAM-5" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">09.</th>
         <td>ECTIN</td>
         <td>Ivermectin</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ECTIN</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="#" alt="ECTIN" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">10.</th>
-        <td>ESTROPAM-5</td>
-        <td>Escitalopram 5 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>ESTROPAM-10</td>
+        <td>Escitalopram 10 mg</td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ESTROPAM-10</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Estropam.JPG" alt="ESTROPAM-10" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">11.</th>
-        <td>ESTROPAM-10</td>
-        <td>Escitalopram 10 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>NERVISTRONG - FORTE</td>
+        <td>Methylcobalamin 1000 mcg + Thiamine 100mg + Pyridoxine 100mg+ Niacinamide 100mg+ D-panthenol 50mg inj</td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">NERVISTRONG - FORTE</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/NERVISTRONG-FORTE.JPG" alt="NERVISTRONG - FORTE" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">12.</th>
         <td>ESTROPAM PLUS</td>
         <td>Escitalopram 10mg + Clonazepam 0.5mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ESTROPAM PLUS</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Estropam-Plus.JPG" alt="ESTROPAM PLUS" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">13.</th>
         <td>ESTROZYME 200ml</td>
         <td>Each 5ml: Diastase 50mg + Pepsin 10mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ESTROZYME 200ml</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Estrozyme.JPG" alt="ESTROZYME 200ml" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
 
       <tr>
         <th scope="row">14.</th>
         <td>FLXT - 20</td>
         <td>Fluoxetine 20mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">FLXT - 20</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Flxt.JPG" alt="FLXT - 20" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">15.</th>
         <td>FLXT - 40</td>
         <td>Fluoxetine 40mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">FLXT - 40</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Flxt.JPG" alt="FLXT - 40" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">16.</th>
         <td scope="row">FLXT - 60</td>
         <td>Fluoxetine 60mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">FLXT - 60</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Flxt.JPG" alt="FLXT - 60" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">17</th>
         <td>IPRACHOLINE - P800</td>
         <td>Citicoline 500mg + Piracitam 800mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal17">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">IPRACHOLINE - P800</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Ipracholine-P.JPG" alt="IPRACHOLINE - P800" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">18</th>
         <td>JAPTRINE - 10</td>
         <td>Amitriptyline 10mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal18">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">JAPTRINE - 10</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Japtrine.JPG" alt="JAPTRINE - 10" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">19.</th>
         <td>JAPTRINE - 25</td>
         <td>Amitriptyline 25mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal19">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">JAPTRINE - 25</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Japtrine.JPG" alt="JAPTRINE - 25" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">20.</th>
         <td>JEOPRIDE - 100</td>
         <td>Amisulpride 100mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal20">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">JEOPRIDE - 100</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Jeopride.JPG" alt="JEOPRIDE - 100" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">21.</th>
-        <td>JEOPRIDE - 200</td>
-        <td>Amisulpride 100mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>JEOCALM-AP</td>
+        <td>Acceclofenace 100mg + Paracetamol 325mg</td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal49">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal49" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">JEOCALM-AP</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="#" alt="JEOCALM-AP" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
+      </tr>
+      <th scope="row">22.</th>
+      <td>ESPANTO-DSR</td>
+      <td>Pantoprazole 40mg + Dompridone 30mg</td>
+      <td>
+        <!-- Product POP UP And Close Button -->
+        <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal50">
+          CLICK
+        </button>
+        <div class="modal fade" id="exampleModal50" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">ESPANTO-DSR</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="./Images/medicine/Espanto-DSR.JPG" alt="ESPANTO-DSR" style="height:600px">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+
       </tr>
       <tr>
-        <th scope="row">24.</th>
+        <th scope="row">23.</th>
         <td>NERVISTRONG - OD</td>
         <td>Methylcobalamin 1500mcg,Alpha
           lipoic acid 100mg,Benfotiamine
@@ -261,101 +742,446 @@
           22.5mg,Chromium
           picolinate 65mcg & Lutein 5mg
           tab</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal22">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">NERVISTRONG - OD</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Nervistrong-OD.JPG" alt="NERVISTRONG - OD" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
 
       <tr>
-        <th scope="row">25.</th>
+        <th scope="row">24.</th>
         <td>NERVISTRONG
           INJECTABLE
         </td>
         <td>Methylcobalamin 1500
           mcg(Combipack) </td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal23">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">NERVISTRONG
+                    INJECTABLE</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Nervistrong.jpg" alt="NERVISTRONG
+                    INJECTABLE" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">25.</th>
-        <td>JEOPRIDE - 100</td>
-        <td>Amisulpride 100mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>EPRISPAS-AC</td>
+        <td>Eprisone Hydrochloride150 mg + Acceclofenace 200mg</td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal24">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">EPRISPAS-AC</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="#" alt="EPRISPAS-AC" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">26.</th>
-        <td>JEOPRIDE - 100</td>
+        <td>JEOPRIDE - 200</td>
         <td>Methylcobalamin 1000 mcg + Thiamine
           100mg + Pyridoxine 100mg+
           Niacinamide 100mg+ D-panthenol
           50mg inj.</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal25">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">JEOPRIDE - 200</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Jeopride.JPG" alt="JEOPRIDE - 200" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">27.</th>
         <td>OLIPIN 2.5</td>
         <td>Olanzapine 2.5 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal26">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OLIPIN 2.5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Olipin.JPG" alt="OLIPIN 2.5" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">28.</th>
         <td>OLIPIN 5</td>
         <td>Olanzapine 5 mg </td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal27">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal27" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OLIPIN 5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Olipin.JPG" alt="OLIPIN 5" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">29.</th>
         <td>OLIPIN 7.5</td>
         <td>Olanzapine 7.5 mg </td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal28">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal28" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OLIPIN 7.5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Olipin.JPG" alt="OLIPIN 7.5" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">30.</th>
         <td>OLIPIN 10</td>
         <td>Olanzapine 10 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal29">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal29" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OLIPIN 10</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Olipin.JPG" alt="OLIPIN 10" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">31.</th>
         <td>OLIPIN 15</td>
         <td>Olanzapine 15 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal99">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal99" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OLIPIN 15</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Olipin.JPG" alt="OLIPIN 15" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
+     
       <tr>
         <th scope="row">32.</th>
         <td>OXZARO - 300</td>
         <td>Oxcarbazepine 300mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal55">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal55" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OXZARO - 300</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Oxzaro.JPG" alt="OXZARO - 300" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
+    
       <tr>
         <th scope="row">33.</th>
         <td>OXZARO - 450</td>
-        <td>Oxcarbazepine 450mg </td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>Oxcarbazepine 450mg</td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal75">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal75" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OXZARO - 450</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Oxzaro.JPG" alt="OXZARO - 450" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">34.</th>
-        <td>OXZARO 150</td>
+        <td>OXZARO - 150</td>
         <td>Oxcarbazepine 150mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal85">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal85" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">OXZARO -150</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Oxzaro.JPG" alt="OXZARO - 150" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">35.</th>
         <td>QFRESH - 50</td>
         <td>Quetiapine 50mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
-      </tr>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal95">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal95" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">QFRESH - 50</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Qfresh.JPG" alt="QFRESH - 50" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">36.</th>
         <td>QFRESH - 100</td>
         <td>Quetiapine 100mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
-      </tr>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal105">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal105" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">QFRESH - 100</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Qfresh.JPG" alt="QFRESH - 100" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">37.</th>
         <td>STROVIT DROP</td>
         <td>Multi-Vitamins</td>
-        <td class="blue"><a href="#">Check>></a></td>
-      </tr>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal1105">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal1105" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">STROVIT DROP</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Strovit_drop.JPG" alt="STROVIT DROP" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
 
       </tr>
       <tr>
@@ -366,66 +1192,293 @@
           Extract, Grape Seed Extract,
           Multimineral, Multivitamin with
           Antioxidents & Trace Element</td>
-        <td class="blue"><a href="#">Check>></a></td>
-      </tr>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal11105">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal11105" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">STROVIT SYP 200</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Strovit.JPG" alt="STROVIT SYP 200" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">39.</th>
         <td>STROVIT - 4G</td>
         <td>Omega 3 Fatty Acid, Green Tea
-          Extract, Ginkgo </td>
-        <td class="blue"><a href="#">Check>></a></td>
-      </tr>
+          Extract, Ginkgo</td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal225">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal225" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">STROVIT - 4G</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Strovit-4G.JPG" alt="STROVIT - 4G" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">40.</th>
-        <td>ZAPMIR - 7.5 </td>
-        <td>Mirtazepine - 7.5mg </td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>ZAPMIR - 7.5</td>
+        <td>Mirtazepine - 7.5mg</td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal325">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal325" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ZAPMIR - 7.5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Zapmir.JPG" alt="ZAPMIR - 7.5" style="height:600px;width:500px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
-      </tr>
+      
       <tr>
         <th scope="row">41.</th>
         <td>ZAPMIR - 15</td>
         <td>Mirtazepine - 15mg </td>
-        <td class="blue"><a href="#">Check>></a></td>
-      </tr>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal40">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal40" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ZAPMIR - 15</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Zapmir.JPG" alt="ZAPMIR - 15" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">42.</th>
         <td>ZEALPAM 0.25</td>
         <td>Clonazepam 0.25 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal41">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal41" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ZEALPAM 0.25</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Zealpam.JPG" alt="ZEALPAM 0.25" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">43.</th>
         <td>ZEALPAM 0.5</td>
         <td>Clonazepam 0.5 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal42">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal42" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ZEALPAM 0.5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Zealpam.JPG" alt="ZEALPAM 0.5" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">44.</th>
         <td>ZEALPAM 1 </td>
         <td>Clonazepam 1 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal43">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal43" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ZEALPAM 1</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Zealpam.JPG" alt="ZEALPAM 1" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">45.</th>
         <td>ZEALPAM-EZ 0.5</td>
         <td>Etizolam 0.5</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal44">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal44" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ZEALPAM-EZ 0.5</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Zealpam-EZ.JPG" alt="ZEALPAM-EZ 0.5" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">46.</th>
         <td>ZILPOD 100 DT</td>
         <td>Cefpodoxim 100 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal45">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal45" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ZILPOD 100 DT</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Zilpod.JPG" alt="ZILPOD 100 DT" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">47.</th>
         <td>EPRISPAS-SR</td>
         <td>Eprisone Hydrochloride150 mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal46">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal46" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">EPRISPAS-SR</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="#" alt="EPRISPAS-SR" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">48.</th>
@@ -438,107 +1491,148 @@
           Methlcobalamin 1500mg,
           Pyridoxine Hydrochloride3mg &
           vitamin D3 1000 IU</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal47">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal47" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">NERVIPAS-CD3</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="#" alt="NERVIPAS-CD3" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
       <tr>
         <th scope="row">49.</th>
         <td>XONTIBAC C</td>
         <td>Ceftriaxone1gm</td>
-        <td class="blue"><a href="#">Check>></a></td>
+        <td>
+          <!-- Product POP UP And Close Button -->
+          <button type="button" class="mine" data-bs-toggle="modal" data-bs-target="#exampleModal48">
+            CLICK
+          </button>
+          <div class="modal fade" id="exampleModal48" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">XONTIBAC C</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/medicine/Xontibac-C.JPG" alt="XONTIBAC C" style="height:600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
-      <tr>
-        <th scope="row">50.</th>
-        <td>JEOCALM-AP</td>
-        <td>Acceclofenace 100mg + Paracetamol 325mg</td>
-        <td class="blue"><a href="#">Check>></a></td>
-      </tr>
+
   </table>
 
- <!-- -----------------------------------------------FOOTER -->
+  <!-- -----------------------------------------------FOOTER -->
 
- <footer style="color:#132043;padding: 20px;background-color:#89CFF3;" class="py-5">
-  <div class="row">
-    <div class="col-6 col-md-2 mb-3">
-      <h5>INFO</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Services</a></li>
-        <li class="nav-item mb-2"><a href="careers.html" class="nav-link p-0 text-body-secondary">Careers</a></li>
-        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Enquiry</a></li>
-        <li class="nav-item mb-2"><a href="products.html" class="nav-link p-0 text-body-secondary">Products</a></li>
+  <footer style="color:#132043;padding: 20px;background-color:#89CFF3;" class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>INFO</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Services</a></li>
+          <li class="nav-item mb-2"><a href="./careers.html" class="nav-link p-0 text-body-secondary">Careers</a></li>
+          <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 text-body-secondary">Enquiry</a></li>
+          <li class="nav-item mb-2"><a href="./products.html" class="nav-link p-0 text-body-secondary">Products</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>POLICIES</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Term Of Services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">E-waste recycling Policy</a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Resource Centre</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./mission.html" class="nav-link p-0 text-body-secondary">About Estro</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">resQ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Site <Map></Map></a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cororate Enquiries</a></li>
+          <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 text-body-secondary">Contacts us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Estro Pharmaceuticals, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+              height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+            </svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+              height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+            </svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+              height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+            </svg></a></li>
       </ul>
+
     </div>
-
-    <div class="col-6 col-md-2 mb-3">
-      <h5>POLICIES</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Term Of Services</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">E-waste recycling Policy</a>
-        </li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-       
-      </ul>
-    </div>
-
-    <div class="col-6 col-md-2 mb-3">
-      <h5>Resource Centre</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Estro</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">resQ</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Site <Map></Map></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cororate Enquiries</a></li>
-        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contacts us</a></li>
-      </ul>
-    </div>
-
-    <div class="col-md-5 offset-md-1 mb-3">
-      <form>
-        <h5>Subscribe to our newsletter</h5>
-        <p>Monthly digest of what's new and exciting from us.</p>
-        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-          <label for="newsletter1" class="visually-hidden">Email address</label>
-          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-          <button class="btn btn-primary" type="button">Subscribe</button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-    <p>© 2023 Estro Pharmaceuticals, Inc. All rights reserved.</p>
-    <ul class="list-unstyled d-flex">
-      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-            height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-            <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-          </svg></a></li>
-      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-            height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-            <path
-              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-          </svg></a></li>
-      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-            height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-            <path
-              d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-          </svg></a></li>
-    </ul>
-
-  </div>
-  <p style="text-align:center;font-size: 10px;margin: 50px 0;color: grey;">
-  <p style="text-align: center;color: grey;font-size: 10px;"><b>Disclaimer: Estro Pharmaceuticals</b></p>
-  <p style="text-align: center;color: grey;font-size: 10px;">
-    Information provided is not medical advice. Use products as directed. Estro Pharmaceuticals is not responsible for
-    external links. Consult a healthcare professional for personalized guidance.
-  </p>
+    <p style="text-align:center;font-size: 10px;margin: 50px 0;color: grey;">
+    <p style="text-align: center;color: grey;font-size: 10px;"><b>Disclaimer: Estro Pharmaceuticals</b></p>
+    <p style="text-align: center;color: grey;font-size: 10px;">
+      Information provided is not medical advice. Use products as directed. Estro Pharmaceuticals is not responsible for
+      external links. Consult a healthcare professional for personalized guidance.
+    </p>
 
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
