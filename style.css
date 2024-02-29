@@ -125,7 +125,7 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   left: 0;
   top: 0;
   bottom: 0;
-  background: rgba(51, 58, 115, 0.25);
+  background: rgba(37, 67, 37, 0.25);
   /* 333A73 */
   right: 0;
 }
@@ -228,8 +228,8 @@ section.features-section {
   height: 80px;
 }
 
-.logo1{
-  height: 60px;
+.logo1 {
+  height: 100px;
 
   padding: auto;
 }
@@ -257,47 +257,54 @@ tr {
 
 
 /* --------------------------------------------------------pRoductsPAGE */
-.table>:not(caption)>*>* {
-  padding: 1rem 0rem;
-  text-align: center;
-}
-.prod-class{
-  font-size: 10px;
-  font-weight: 900;
-}
-#prodsdtls{
-  font-size: 8px;
-  font-size: 1rem;
-}
-.popup-button {
-  padding: 2px 8px;
-  font-size: 7px;
- 
-}
-.p_logo{
-margin: 0 15%;
-}
-#tim{
-  font-size: 16px;
-  padding: 0px;
-  margin: 0 32%;
+body1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  background-color: #f4f4f4;
+  background: transparent;
 }
 
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(114, 114, 114, 0.80);
+  z-index: 1000;
 }
-@media screen and (max-width:263px){
-  .prod-class{
-    font-size: 6px;
-    font-weight: 900;
-  }
-  #prodsdtls{
-    font-size: 8px;
-    font-size: 1rem;
-  }
-  .popup-button {
-    padding: 2px 8px;
-    font-size: 7px;
-   
+
+.popup-content {
+  text-align: center;
 }
+
+.popup-close {
+  cursor: pointer;
+  color: #333;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popup-button {
+  padding: 0px 10px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /* --------------------------------BOUT SECTION */
 
 
@@ -435,7 +442,7 @@ section.about-section {
   }
 
   /* --------------------------------------products- */
-  .table>:not(caption)>*>* {
+  .table:not(caption){
     padding: 1rem 0rem;
     text-align: center;
   }
@@ -497,7 +504,6 @@ p {
   margin-bottom: 0rem;
 }
 
-/* product modal------------------------------------------------------------------------------------- */
 .mine {
   background-color: #3498db;
     color: white;
@@ -544,4 +550,5 @@ p {
     overflow-y: auto;
     outline: 0;
 }
+
 
