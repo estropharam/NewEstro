@@ -9,7 +9,7 @@ form.addEventListener("submit",(e)=>{
     const authenticated = authentication(username,password)
 
     if(authenticated){
-        window.location.href = "/products.html"
+        window.location.href = "http://www.estropharma.co.in/login/login.aspx"
     }else{
         alert("wrong")
     }
