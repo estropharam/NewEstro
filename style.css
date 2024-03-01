@@ -58,6 +58,11 @@ section,
 .container {
   position: relative;
 }
+/* container style */
+.bgclr{
+  background-color:#FBF9F1;
+  border-radius: 8px;
+}
 
 .lead {
   font-weight: 500;
