@@ -525,6 +525,11 @@ p {
   margin-top: 0;
   margin-bottom: 0rem;
 }
+/* padding for about pages para */
+.bgclr p{
+  padding: 10px;
+}
+
 
 .mine {
   background-color: #3498db;
