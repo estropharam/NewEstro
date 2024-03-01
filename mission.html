@@ -152,7 +152,8 @@
         </ul>
       </div>
 
-     <div class="col-md-5 offset-md-1 mb-3">
+  <!-- subscribe button function working -->
+      <div class="col-md-5 offset-md-1 mb-3">
         <form>
             <h5>Subscribe to our newsletter</h5>
             <p>Monthly digest of what's new and exciting from us.</p>
@@ -168,6 +169,7 @@
         function subscribe() {
             // Get the email input value
             var email = document.getElementById("newsletter1").value;
+            
     
             // Check if the email is blank
             if (email.trim() === "") {
@@ -177,9 +179,9 @@
                 alert("Successfully Subscribed with: " + email);
                 // You can add additional logic here to submit the form or perform other actions.
             }
+            window.scrollTo({ top: document.head.scrollHeight, behavior: 'smooth' });
         }
     </script>
-
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
       <p>© 2023 Estro Pharmaceuticals, Inc. All rights reserved.</p>
       <ul class="list-unstyled d-flex">
