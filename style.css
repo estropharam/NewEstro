@@ -471,6 +471,8 @@ section.about-section {
     padding: 0px;
     margin: 0 32%;
   }
+
+}
 @media screen and (max-width:650px)
 {
   .prod-class {
@@ -493,7 +495,6 @@ section.about-section {
       padding: 0px 0rem;
       text-align: center;
   }
-}
 }
 /* responsibility------------------------------------------------------------------------------------- */
 
