@@ -130,6 +130,13 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   background-size: cover;
   position: relative;
 }
+.hero-banner-3 {
+  background: url(./Images/TEAMIMAGES/13.png);
+  min-height: 500px;
+  padding: 100px 0px;
+  background-size: cover;
+  position: relative;
+}
 
 
 .hero-banner:before {
@@ -153,6 +160,18 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   top: 0;
   bottom: 0;
   background: rgba(242, 242, 242, 0.25);
+  /* 333A73 */
+  right: 0;
+}
+.hero-banner-3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.40);
   /* 333A73 */
   right: 0;
 }
