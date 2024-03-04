@@ -62,6 +62,8 @@ section,
 .bgclr{
   background-color:#FBF9F1;
   border-radius: 8px;
+  
+ 
 }
 
 .lead {
@@ -121,7 +123,20 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   background-size: cover;
   position: relative;
 }
-
+.hero-banner-2 {
+  background: url(./Images/TEAMIMAGES/tai-s-captures-Lhb-zwQ-QGI-unsplash.jpg);
+  min-height: 500px;
+  padding: 100px 0px;
+  background-size: cover;
+  position: relative;
+}
+.hero-banner-3 {
+  background: url(./Images/TEAMIMAGES/13\ -\ Copy.jpeg);
+  min-height: 500px;
+  padding: 100px 0px;
+  background-size: cover;
+  position: relative;
+}
 .hero-banner:before {
   content: "";
   position: absolute;
@@ -132,6 +147,30 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   bottom: 0;
   background: rgba(37, 67, 37, 0.25);
   /* 333A73 */
+  right: 0;
+}
+.hero-banner-2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(242, 242, 242, 0.25);
+  /* 333A73 */
+  right: 0;
+}
+.hero-banner-3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(3, 51, 167, 0.1);
+    
   right: 0;
 }
 
@@ -213,10 +252,18 @@ section.features-section {
   background-color: var(--bg-primary);
   text-align: center;
 }
+.bg4 {
+  background-color: white;
+  text-align: center;
+  border-radius: 4px;
+}
 
 .bg3 {
   background-color: #a8b5d2e8;
   text-align: center;
+}
+.carousel-inner {
+  margin: 20px 0;
 }
 
 .features-box h3,
@@ -420,6 +467,14 @@ section.about-section {
     background-size: cover;
     position: relative;
   }
+  .hero-banner-2 {
+    background: url(./Images/TEAMIMAGES/volodymyr-hryshchenko-XLNo-18vqDg-unsplash.jpg);
+    min-height: 50px;
+    padding: 50px 0px;
+    background-size: cover;
+    position: relative;
+  }
+
 
   .banner-text-wrap h1 {
     font-size: 31PX;
@@ -482,7 +537,7 @@ section.about-section {
 {
   .prod-class {
     font-size: 8px;
-    font-weight: 600;
+    font-weight: 500;
   }
   .mine {
     background-color: #3498db;
@@ -496,7 +551,7 @@ section.about-section {
       margin: 2px 0;
       border-radius:9px;
     }
-    .table>:not(caption)>*>* {
+    .table>:not(caption)>*> {
       padding: 0px 0rem;
       text-align: center;
   }
@@ -524,7 +579,7 @@ section.about-section {
     /* background-color: rgb(209, 209, 209); */
     color: rgb(0, 0, 0);
 
-    background: rgb(220, 220, 220, 0.80);
+    background: rgb(220, 220, 220, 0.80);
 }
 p {
   margin-top: 0;
@@ -534,7 +589,6 @@ p {
 .bgclr p{
   padding: 10px;
 }
-
 
 .mine {
   background-color: #3498db;
@@ -582,5 +636,19 @@ p {
     overflow-y: auto;
     outline: 0;
 }
+.covid{
+  height: 485px;
 
+}
+@media screen and(max-width:575px) {
+.covid{
+  height: 300px;
+}
 
+}
+@media screen and(max-width:375px) {
+  .covid{
+    height: 272px;
+  }
+  
+  }
