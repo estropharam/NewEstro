@@ -309,7 +309,7 @@ section.about-section{
    --bs-gutter-x: 0px; 
 }
 .row {
-  --bs-gutter-x: 0px; 
+  --bs-gutter-x: 8px; 
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -404,7 +404,7 @@ margin: 0 15%;
 /* .row {
     --bs-gutter-x: 14px;
 } */
-/* -----------------------------------------------COVID */
+/* -------------------------------------------------------------------------------COVID */
 .res{
   text-align: center;
   color: rgb(61, 47, 47);
@@ -413,6 +413,14 @@ margin: 0 15%;
   text-align: left;
   -webkit-text-stroke-width: 1.2px;
   -webkit-text-stroke-color: rgb(0, 0, 0);  
+}
+}
+#one{
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 404px;
+  width: 50%;
+  position: absolute;
+  top: 91px;
 }
 .two {
   width: 50%;
@@ -450,51 +458,64 @@ margin: 0 15%;
   height:469px ;
   z-index:-1;
 }
-
-@media screen and (max-width:1066px)
-{
-  .heroImg{
-    height:412px;
-    z-index:-1;
+.title{
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding: 0 20px;
+  font-size: 20px;
+  margin-top: 150px;
   }
-  .two {
-    width: 31%;
-    height: 251px;
-    background-color: rgb(209, 209, 209);
-    color: rgb(0, 0, 0);
-    background: rgb(231, 227, 227);
-    padding-top: 0px;
-    padding-left: 15px;
-    z-index: 1;
-    display: inline-block;
-    position: absolute;
-    top: 91px;
-    opacity: 60%;
+.title h2{
+ 
+  font-weight: 800;
+ }  
+.title p{
+font-size: 15px;
 }
-.res{
-  padding: 25px 0;
+#title{
+  height: 404px;
 }
-
-#tag{
-  text-align: left;
-  font-size: 30px;
-}
-
-
-
-}
-  @media screen and (max-width:1066px)
-  {
-    .heroImg{
-      height:250px;
-      z-index:-1;
-    }
-    #tag
-    {
-      font-size: 13px;
-    }
-    .about-img{
-      font-size: 13px;
-    }
+@media screen and (max-width:991px){
+  #one{
+    top: 86px;
+    
   }
-  
+  .title p{
+    font-size: 13px;
+  }
+
+}
+@media screen and (max-width:620px){
+  #one{
+    width: 100%;
+    top: 85px;
+    height: 185px;
+    
+
+  }
+  .title{
+    margin-top: 44px;
+  }
+  .title h2{
+    margin-top: 44px;
+    font-size: 21px;
+  }
+  .title p{
+    font-size: 9px;
+  }
+  #title{
+    height: 185px;
+
+  }
+
+}
+@media screen and (max-width:285px){
+  .title h2{
+    margin: 0;
+ 
+  }
+  #one{
+    background-color: rgba(255, 255, 255, 1.8);
+  }
+}
+
