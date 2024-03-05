@@ -231,13 +231,6 @@ input.form-control.me-2 {
   margin-top: 15px;
 }
 
-/* body {
-  background: url('./Images/Marvels_Blade_Announcement_Art_3840x2160-scaled.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
 
 section.features-section {
   margin-top: -90px;
@@ -296,7 +289,7 @@ tr {
 }
 
 .table>:not(caption)>*>* {
-  padding: 0 2rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -536,8 +529,8 @@ section.about-section {
 @media screen and (max-width:650px)
 {
   .prod-class {
-    font-size: 8px;
-    font-weight: 500;
+    font-size: 10px;
+    font-weight: 600;
   }
   .mine {
     background-color: #3498db;
