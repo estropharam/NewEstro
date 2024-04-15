@@ -13,7 +13,7 @@
     top: 50rem;
 }
 .INPUT{
-    background-image: url(./Images/sattu.jpg);
+    background-image: url(./Images/TEAMIMAGES/logo2222.png);
     opacity: 100%;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -40,7 +40,7 @@
 }
 
 .fcf-form-group {
-    margin-bottom: 1rem;
+    margin-bottom:28px;
 }
 
 .fcf-input-group {
