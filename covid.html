@@ -19,6 +19,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./Images/ICON/favicon-32x32.png">
     <link rel="manifest" href="/site.webmanifest">
             <!-- icon link -->
+            <style>
+              .container {
+                width: 83%;
+              }
+            </style>
 </head>
 
 
@@ -55,14 +60,14 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
-                  CSR
+                 CSR
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./responsibility.html">Resposnsibilty</a>
+                  <a class="dropdown-item" href="./responsibility.html"> Resposnsibilty</a>
                   <a class="dropdown-item" href="./covid.html">Covid-19</a>
-                  
-                  
+                 
+            
                 </div>
               </li>
 
@@ -110,7 +115,7 @@
          <div class="col-md-6 ">
            <div class="features-box-1 bg4">
              <img class="log2" src="./Images/TEAMIMAGES/COVID_img2.png" style="height: 400px;" alt="dev">
-             <h3>Public awareness</h3>
+             <h3 style="color: rgb(0, 3, 85);">Public awareness</h3>
              <p>During COVID-19, we raised public awareness through campaigns, educating about preventive measures like mask-wearing and hand hygiene. Collaborating with health authorities and media outlets, we disseminated vital information to curb transmission, fostering a safer environment for all.During COVID-19, we raised public awareness.</p>
            </div>
          </div>
@@ -118,7 +123,7 @@
          <div class="col-md-6 ">
            <div class="features-box-1 bg4">
              <img class="log2" src="./Images/TEAMIMAGES/COVID_img8.png" style="height: 400px;" alt="dev">
-             <h3>Mask and Sanitizer Distribution</h3>
+             <h3 style="color: rgb(0, 3, 85);">Mask and Sanitizer Distribution</h3>
              <p>We swiftly distributed masks and raised awareness about sanitizer use, responding effectively to public health crises. Through collaboration with government agencies, healthcare providers, and community organizations, we ensured widespread access to essential supplies, mitigating the spread of diseases like COVID-19 and promoting community well-being.</p>
            </div>
          </div>
@@ -176,6 +181,18 @@
         </ul>
       </div>
 
+      
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Resource Centre</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./mission.html" class="nav-link p-0 text-body-secondary">About Estro</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">resQ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Site <Map></Map></a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cororate Enquiries</a></li>
+          <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 text-body-secondary">Contacts us</a></li>
+        </ul>
+      </div>
       <div class="col-6 col-md-2 mb-3">
         <h5>POLICIES</h5>
         <ul class="nav flex-column">
@@ -188,17 +205,6 @@
           </li>
         </ul>
       </div>
-
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Resource Centre</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="./mission.html" class="nav-link p-0 text-body-secondary">About Estro</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">resQ</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Site <Map></Map></a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cororate Enquiries</a></li>
-          <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 text-body-secondary">Contacts us</a></li>
-        </ul>
-      </div>
 <!-- subscribe button function working -->
       <div class="col-md-5 offset-md-1 mb-3">
         <form>
@@ -206,7 +212,7 @@
             <p>Monthly digest of what's new and exciting from us.</p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <input id="newsletter1" type="email" class="form-control" placeholder="Email address">
                 <button class="btn btn-primary" type="button" onclick="subscribe()">Subscribe</button>
             </div>
         </form>
