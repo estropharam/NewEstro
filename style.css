@@ -250,8 +250,10 @@
     text-align: center;
     border-radius: 4px;
     height: 102%;
-    padding: 19px;
-  }
+    /* padding: 19px;*/
+    
+   
+  } 
 
   .bg3 {
     background-color: #a8b5d2e8;
@@ -368,8 +370,7 @@
   }
 
   .row {
-    --bs-gutter-x: 0px;
-    --bs-gutter-y: 0;
+   
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(-1 * var(--bs-gutter-y));
@@ -554,7 +555,8 @@
       outline: 0;
   }
   .covid{
-    height: 485px;
+    height: 500px;
+    margin-top: 85px;
 
   }
  
@@ -653,3 +655,22 @@
     }
 
   }
+
+  /* css covid-------------------------- */
+  #screen {
+    background-color: rgb(235, 235, 235);
+    padding: 40px;
+    height: 752px;
+    z-index: 200;
+    position: absolute;
+    opacity: 50%;
+    width: 100%; 
+    top: 1440px;
+   
+}
+@media screen and (max-width:767px) {
+  .row {
+    grid-row-gap: 18px;
+    grid-column-gap: 50px;
+}
+}
