@@ -57,6 +57,7 @@
   section,
   .container {
     position: relative;
+    width: 100%;
   }
   /* container style */
   .bgclr{
@@ -555,7 +556,7 @@
       outline: 0;
   }
   .covid{
-    height: 500px;
+    height: 35rem;
     margin-top: 85px;
 
   }
@@ -590,7 +591,7 @@
       position: relative;
     }
     .hero-banner-2 {
-      background: url(./Images/TEAMIMAGES/volodymyr-hryshchenko-XLNo-18vqDg-unsplash.jpg);
+      /* background: url(./Images/TEAMIMAGES/volodymyr-hryshchenko-XLNo-18vqDg-unsplash.jpg); */
       min-height: 50px;
       padding: 50px 0px;
       background-size: cover;
@@ -658,19 +659,42 @@
 
   /* css covid-------------------------- */
   #screen {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(235, 122, 2);
     padding: 40px;
-    height: 752px;
+    height: 46rem;
     z-index: 200;
     position: absolute;
     opacity: 50%;
     width: 100%; 
-    top: 1440px;
+    top: 213%;
    
+}
+ #last{
+  text-align: center;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 600;
+  
+}
+#try{
+  text-align: center;
+  padding:0% 20%; 
+  font-size: 14px;
 }
 @media screen and (max-width:767px) {
   .row {
     grid-row-gap: 18px;
     grid-column-gap: 50px;
+} 
 }
+
+@media screen and (max-width:1150px) {
+#screen{
+  top: 1459px;
+}
+}
+@media screen and (max-width:1010px) {
+  #screen{
+    height: 635px;
+  }
 }
